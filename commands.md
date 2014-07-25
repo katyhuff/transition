@@ -11,7 +11,6 @@ git clone https://github.com/katyhuff/sepmatrix.git
 git clone https://github.com/katyhuff/commodconverter.git
 git clone https://github.com/katyhuff/decomminst.git
 git clone https://github.com/katyhuff/streamblender.git
-git clone https://github.com/rwcarlsen/cyan.git
 cd cyclus
 python install.py --prefix=../install
 cd ../cycamore
@@ -30,3 +29,4 @@ install/bin/sepmatrix_unit_tests
 install/bin/commodconverter_unit_tests 
 install/bin/decomminst_unit_tests 
 install/bin/streamblender_unit_tests 
+git clone https://github.com/rwcarlsen/cyan.git
