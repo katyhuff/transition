@@ -12,8 +12,7 @@ REPOS="cyclus
        streamblender
        commodconverter
        separationmatrix
-       mktdriveninst
-       cyan"
+       mktdriveninst"
 
 INSTALL="python install.py --build_type=debug --prefix=../install"
 
