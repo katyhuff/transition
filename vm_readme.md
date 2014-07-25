@@ -1,12 +1,15 @@
-# Instructions for Installing and Using the Virtual Machine
+
+Virtual Machine Instructions
+============================
 
 This strategy will work on all platforms (including windows).
 
-## Get Virtual Box
+Get Virtual Box
+==================
 
 You may already have virtual box. If so, open it. 
 
-If not, download it: https://www.virtualbox.org/ .
+If not, [download it](https://www.virtualbox.org/).
 
 ## Get the Virtual Machine Image
 
@@ -23,21 +26,25 @@ just open it up with ether Virtual Box or the VMWare manager, log in as
 cyclus-user (password: cyclus) and have a fully installed cyclus in the
 terminal. 
 
+Import the VM into Virtual Box
+===============================
+
+To import the virtual machine image into virtual box, navigate to File->Import
+Appliance. From there, select the .ova file that you have downloaded and follow 
+the instructions.
+
 You may notice that VirtualBox has a tiny screen. If this is the case, you 
-should "Install Guest Additions." This is optional, but awesome. 
+should "Install Guest Additions." This is optional, but awesome. To do this: 
 
 - Click on Devices->Insert Guest Additions CD Image
 - Enter the password for the machine at the prompt (cyclus)
 - The terminal will open and run the script. Press Enter if it asks you to.
 - Restart the Guest OS (the virtual machine, not your Windows/whatever computer)
+- You can now enlarge the screen.
 
 
-
-## What is this?
-
-It's a fully featured ubuntu linux virtual machine that you can run using
-VirtualBox or VMWare. In VirtualBox, you'll open it from File->Import
-Appliance.
+What is this?
+=============
 
 - I have created it specifically for the use of cyclus. 
 - All of the cyclus dependencies have been installed (CMake, hdf5, sqlite, xml, etc.)
@@ -46,35 +53,18 @@ Appliance.
 - Then, these were all built and installed. (They are installed at ~/cyclus/install. )
 - Finally, they were tested. You can try this yourself by executing the following on the command line "~/install/cyclus/bin/cyclus_unit_tests". That will run the cyclus unit tests. They should pass. Then, you can run the cycamore tests "~/install/cyclus/bin/cycamore_unit_tests", etc.
 
-## How was it done? 
+How was it done? 
+================
 
-You can see all the commands it took to create this virtual macine in the text file on the desktop.
-
-
-## How do I use it?
-
-
-Now, you can browse the code and run some of the example input files that are
-in the source code (the source is in ~/cyclus/cyclus ,  ~/cyclus/cycamore , 
-etc.) . 
+You can see all the commands it took to create this virtual macine in the text 
+file on the desktop. That same file is called commands.md and is in this 
+repository.
 
 
-The main example file for the code-to-code comparison is at 
-~/cyclus/decomm_inst/input/example.xml .
-
-To run that input file, at the terminal, type : 
+How do I use it?
+================
 
 
-~/cyclus/install/cyclus ~/input.xml
-
-## How do I update it?
-
-People may update the various codebases over the course of the time that you 
-use this machine. To update the code, first, save a snapshot of your virtual 
-machine, in case something goes wrong. Additionally, consider committing and 
-pushing any changes you've made locally to the various repositories. 
-
-Now, try the update script that sits on the desktop. 
-
-If anything goes wrong while using that script, please alert Katy immediately. 
-She'll help you to debug it. 
+Go back to the [main 
+instructions](https://github.com/katyhuff/transition/blob/master/README.md) to 
+find out.

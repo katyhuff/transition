@@ -9,9 +9,12 @@ Installation
 
 There are three options for installation and instructions for each.
 
-- [Virtual Machine]() (any platform)
-- [Natively on MacOSX]() (macosx)
-- [Natively on Linux]() (debian linux)
+- [Virtual 
+  Machine](https://github.com/katyhuff/transition/blob/master/vm_readme.md) (any platform)
+- [Natively on 
+  MacOSX](https://github.com/katyhuff/transition/blob/master/mac_readme.md) (macosx)
+- [Natively on Linux](https://github.com/cyclus/cyclus/blob/develop/README.rst) 
+  (after dependencies, same installation as macosx)
 
 
 Checking
@@ -63,7 +66,7 @@ You can open that file using an sqlite browser such as sqliteman or suse
 virtual machine.
 
 To further analyze that file, there is a set of postprocessing scripts called 
-[cyan](www.github.com/rwcarlsen/cyan). They were written in Go by Robert 
+[cyan](https://github.com/rwcarlsen/cyan). They were written in Go by Robert 
 Carlsen. They go a long way toward extracting the output in an appropriate 
 manner for comparison with FCO. If you have followed the installation 
 instructions above or if you are working in the virtual machine, those scripts 
@@ -83,7 +86,7 @@ time=7 :
 
 
 For additional useful behaviors, try the -h flag for help with cyan, or see the 
-[cyan](www.github.com/rwcarlsen/cyan) documentation.
+[cyan](https://github.com/rwcarlsen/cyan) documentation.
 
 Updating
 --------
