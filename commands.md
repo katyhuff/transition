@@ -29,4 +29,8 @@ install/bin/sepmatrix_unit_tests
 install/bin/commodconverter_unit_tests 
 install/bin/decomminst_unit_tests 
 install/bin/streamblender_unit_tests 
-git clone https://github.com/rwcarlsen/cyan.git
+cd ~
+mkdir postprocessing
+mkdir postprocessing/bin
+go get github.com/rwcarlsen/cyan ...
+
