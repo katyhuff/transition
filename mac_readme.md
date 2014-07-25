@@ -1,27 +1,38 @@
-# Instructions for MacOSX
+Instructions for MacOSX
+=======================
 
-## Installation
+Note that the virtual machine instructions will work on a mac too. These 
+instructions are more complicated but will allow cyclus to run natively on your 
+computer.
 
-Installing natively on a mac is easy enough. The virtual machine is still an 
-option, but 
+Installation
+============
 
-### Getting all the dependencies
+Installing natively on a mac is easy enough. It's the dependency installations 
+that take a while
 
-### Installing all the dependencies
+Getting all the dependencies
+============================
 
-You are largely on your own on this one. 
+First, try to follow the instructions here : .
+
+
+If you get stuck, read this note: 
 
 The propoer way to do this will rely heavily on your system. I use MacPorts and 
-conda to handle most of my dependencies. Boost, I installed from source () . 
+conda to handle most of my dependencies. I installed Boost, Coin, and HDF5 from 
+source. 
+
 The way you install all of these dependencies is really up to you. On a clean 
 system with command line tools and the macports package manager, it should be 
-ok to do this:
+ok to do this for all of the dependencies:
 
-sudo port install -y cmake make boost libxml2 libxmlxx2 sqlite3 
+    sudo port install -y cmake make boost libxml2 libxmlxx2 sqlite3 git 
 
-Then, you'll probably need to install the following from source:  hdf5, libbz2, coinor
 
-### Setting up your environment
+
+Setting up your environment
+===========================
 
 If you have never used git, you should configure git. This way, if you ever 
 contribute back to the code base, it will attribute your work properly.
@@ -30,7 +41,8 @@ contribute back to the code base, it will attribute your work properly.
    git config --global user.email "data@enterprise.gov"
 
 
-Additionally, a few environment variables will improve your life. Add the following to your .bashrc file:
+Additionally, a few environment variables will improve your life. Add the 
+following to your .bashrc file:
 
 CYCLUS_INSTALL_DIR="~/cyclus/install/bin"
 export CYCLUS_INSTALL_DIR
@@ -38,7 +50,8 @@ export CYCLUS_INSTALL_DIR
 PATH="${CYCLUS_INSTALL_DIR}:${PATH}"
 export PATH
 
-### Getting all the code
+Getting all the code
+====================
 
 There are 7 repositories that you will want to download with git. Consider 
 forking them. They are:
@@ -51,55 +64,62 @@ forking them. They are:
 - github.com/katyhuff/sepmatrix
 - github.com/katyhuff/marketdriveninst
 
-
 To clone it all :
 
-mkdir cyclus
-cd cyclus
-mkdir install
-git clone https://github.com/cyclus/cyclus.git
-git clone https://github.com/cyclus/cycamore.git
-git clone https://github.com/cyclus/sepmatrix.git
-git clone https://github.com/cyclus/commodconverter.git
-git clone https://github.com/cyclus/decomminst.git
-git clone https://github.com/cyclus/streamblender.git
-git clone https://github.com/rwcarlsen/cyan.git 
-
-## Installing the various pieces
-
-cd cyclus
-python install.py --prefix=../install
-cd ../cycamore
-python install.py --prefix=../install
-cd ../sepmatrix
-python install.py --prefix=../install
-cd ../commodconverter
-python install.py --prefix=../install
-cd ../decomminst
-python install.py --prefix=../install
-cd ../streamblender
-python install.py --prefix=../install
+    mkdir cyclus
+    cd cyclus
+    mkdir install
+    git clone https://github.com/cyclus/cyclus.git
+    git clone https://github.com/cyclus/cycamore.git
+    git clone https://github.com/cyclus/sepmatrix.git
+    git clone https://github.com/cyclus/commodconverter.git
+    git clone https://github.com/cyclus/decomminst.git
+    git clone https://github.com/cyclus/streamblender.git
 
 
-## Running the tests
+To also get a copy of this repository:
 
-install/bin/cyclus_unit_tests
-install/bin/cycamore_unit_tests
-install/bin/sepmatrix_unit_tests
-install/bin/commodconverter_unit_tests
-install/bin/decomminst_unit_tests
-install/bin/streamblender_unit_tests
+    git clone https://github.com/katyhuff/transition.git 
 
-## Running the simulation
+ 
+Installing the various pieces
+=============================
+
+    cd cyclus
+    python install.py --prefix=../install
+    cd ../cycamore
+    python install.py --prefix=../install
+    cd ../sepmatrix
+    python install.py --prefix=../install
+    cd ../commodconverter
+    python install.py --prefix=../install
+    cd ../decomminst
+    python install.py --prefix=../install
+    cd ../streamblender
+    python install.py --prefix=../install
+
+
+Running the tests
+=================
+
+    install/bin/cyclus_unit_tests
+    install/bin/cycamore_unit_tests
+    install/bin/sepmatrix_unit_tests
+    install/bin/commodconverter_unit_tests
+    install/bin/decomminst_unit_tests
+    install/bin/streamblender_unit_tests
+
+Running the simulation
+======================
 
 Now, you can run cyclus:
 
-~/cyclus/install/bin/cyclus path/to/input.xml
+  ~/cyclus/install/bin/cyclus path/to/input.xml
 
 For example, if you want to run the EG01 draft example:
 
+  ~/cyclus/install/bin/cyclus ~/cyclus/transition/input/example.xml
 
-~/cyclus/install/bin/cyclus ~/cyclus/decomminst/input/example.xml
 
 
 
