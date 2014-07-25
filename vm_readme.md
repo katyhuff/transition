@@ -57,7 +57,7 @@ How was it done?
 ================
 
 You can see all the commands it took to create this virtual macine in the 
-[commands.md]() file in this repository.
+[commands.md](https://github.com/katyhuff/transition/blob/master/commands.md) file in this repository.
 
 
 How do I use it?
