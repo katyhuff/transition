@@ -11,17 +11,17 @@ You may already have virtual box. If so, open it.
 
 If not, [download it](https://www.virtualbox.org/).
 
-## Get the Virtual Machine Image
+Get the Virtual Machine Image
+=============================
 
 You may already have an older version of the cyclus virtual machine. However,
 you should get this new image if you want to run the code-to-code comparison. 
 This environment includes installed code from additional repositories. 
 
 The virtual machine file can be downloaded here:
-http://cnergdata.engr.wisc.edu/cyclus/virtual-box/current/cyclus_user_environment.ova
-.
+[https://dl.dropboxusercontent.com/u/10060444/cyclus_fco.ova](https://dl.dropboxusercontent.com/u/10060444/cyclus_fco.ova) .
 
-It's very large (2.5 gigs). But, once it's downloaded, you should be able to
+It's very large (>2 gigs). But, once it's downloaded, you should be able to
 just open it up with ether Virtual Box or the VMWare manager, log in as
 cyclus-user (password: cyclus) and have a fully installed cyclus in the
 terminal. 
