@@ -56,9 +56,8 @@ What is this?
 How was it done? 
 ================
 
-You can see all the commands it took to create this virtual macine in the text 
-file on the desktop. That same file is called commands.md and is in this 
-repository.
+You can see all the commands it took to create this virtual macine in the 
+[commands.md]() file in this repository.
 
 
 How do I use it?
