@@ -332,6 +332,10 @@
           <prototype>LWR</prototype>
           <number>100</number>
         </entry>
+        <entry>
+          <prototype>Repository</prototype>
+          <number>1</number>
+        </entry>
       </initialfacilitylist>
       <config>
         <MktDrivenInst>
@@ -350,6 +354,7 @@
             <val>SFRWetStorage</val>
             <val>LWRSeparations</val>
             <val>SFRSeparations</val>
+            <val>Repository</val>
           </prototypes>
         </MktDrivenInst>
       </config>
