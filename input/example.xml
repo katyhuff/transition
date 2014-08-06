@@ -42,6 +42,10 @@
       <lib>SeparationMatrix</lib>
       <name>SeparationMatrix</name>
     </spec>
+    <spec>
+      <lib>cycamore</lib>
+      <name>Sink</name>
+    </spec>
   </archetypes>
 
   <facility>
@@ -258,12 +262,14 @@
   </facility>
 
   <facility>
-    <name>OneFacility</name>
+    <name>Repository</name>
     <config>
-      <Source>
-        <out_commod>10.0</out_commod>
-        <recipe_name>lwr_fresh_fuel</recipe_name>
-      </Source>
+      <Sink>
+        <in_commods>
+          <val>waste</val>
+        </in_commods>
+        <capacity>200000</capacity>
+      </Sink>
     </config>
   </facility>
 
