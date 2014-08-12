@@ -60,7 +60,7 @@ Analysis
 After you run cyclus, a cyclus.sqlite file will appear in the directory where 
 you ran cyclus.
 
-You can open that file using an sqlite browser such as sqliteman or suse 
+You can open that file using an sqlite browser such as
 [sqliteman](http://sqliteman.com/) or 
 [sqlitebrowser](http://sqlitebrowser.org/). Both of these are installed on the 
 virtual machine.
