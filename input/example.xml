@@ -137,7 +137,7 @@
         </fuel>
         <processtime>12</processtime>
         <nbatches>9</nbatches> <!-- Can only be an integer 4.5*2.0 = 9-->
-        <batchsize>9.95</batchsize> <!-- adjusted per above 19.91/2.0 = 9.95-->
+        <batchsize>9950.0</batchsize> <!-- adjusted per above 19.91/2.0 = 9.95-->
         <nreload>2</nreload> <!-- as per above, 9.0/4.5 = 2 -->
         <commodity_production>
           <commodity>power</commodity>
@@ -150,7 +150,7 @@
 
   <facility>
     <name>SFR</name>
-    <lifetime>1200</lifetime>
+    <lifetime>600</lifetime>
     <config>
       <BatchReactor>
         <fuel>
@@ -161,7 +161,7 @@
         </fuel>
         <processtime>12</processtime>
         <nbatches>79</nbatches> <!-- Can only be an integer 3.95*20 = 79.0-->
-        <batchsize>0.198</batchsize> <!-- as per above, 3.96/20.0 = 0.198 --> 
+        <batchsize>198.0</batchsize> <!-- as per above, 3.96/20.0 = 0.198 --> 
         <nreload>20</nreload> <!-- as per above, 79.0/3.95=20. -->
         <commodity_production>
           <commodity>power</commodity>
