@@ -54,7 +54,6 @@
       <Source>
         <out_commod>nat_u</out_commod>
         <recipe_name>nat_u_recipe</recipe_name>
-        <capacity>200000</capacity>
       </Source>
     </config>
   </facility>
@@ -137,8 +136,9 @@
          <outrecipe>lwr_unf_recipe</outrecipe>
         </fuel>
         <processtime>12</processtime>
-        <nbatches>3</nbatches>
-        <batchsize>19.91</batchsize>
+        <nbatches>9</nbatches> <!-- Can only be an integer 4.5*2.0 = 9-->
+        <batchsize>9.95</batchsize> <!-- adjusted per above 19.91/2.0 = 9.95-->
+        <nreload>2</nreload> <!-- as per above, 9.0/4.5 = 2 -->
         <commodity_production>
           <commodity>power</commodity>
           <capacity>90</capacity>
@@ -160,8 +160,9 @@
          <outrecipe>sfr_unf_recipe</outrecipe>
         </fuel>
         <processtime>12</processtime>
-        <nbatches>4</nbatches> <!-- In cyclus, this must be an integer -->
-        <batchsize>3.25875</batchsize> <!-- 3.95*(3.3/4) -->
+        <nbatches>79</nbatches> <!-- Can only be an integer 3.95*20 = 79.0-->
+        <batchsize>0.198</batchsize> <!-- as per above, 3.96/20.0 = 0.198 --> 
+        <nreload>20</nreload> <!-- as per above, 79.0/3.95=20. -->
         <commodity_production>
           <commodity>power</commodity>
           <capacity>30</capacity>
