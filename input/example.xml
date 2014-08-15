@@ -281,7 +281,7 @@
           <val>linear</val>
         </demand_types>
         <demand_params>
-          <val>1 1</val>
+          <val>0 90</val> <!-- slope intercept -->
         </demand_params>
         <demand_times>
           <val>1</val>
