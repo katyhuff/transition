@@ -54,6 +54,7 @@
       <Source>
         <out_commod>nat_u</out_commod>
         <recipe_name>nat_u_recipe</recipe_name>
+        <capacity>200000</capacity>
       </Source>
     </config>
   </facility>
@@ -79,7 +80,6 @@
         <out_commod>fresh_lwr_fuel</out_commod>
         <out_recipe>fresh_lwr_fuel_recipe</out_recipe>
         <process_time>12</process_time>
-        <max_inv_size>100.0</max_inv_size>
       </CommodConverter>
     </config>
   </facility>
@@ -118,7 +118,6 @@
           <val>dep_u</val>
         </sources>
         <process_time>12</process_time>
-        <max_inv_size>100.0</max_inv_size>
         <!-- need commodity production? -->
       </StreamBlender>
     </config>
@@ -201,7 +200,7 @@
   </facility>
 
   <facility>
-    <name>LWRSeparations</name>
+    <name>LWRSeparations</name> <!-- need enter time 2025 -->
     <config>
       <SeparationMatrix>
         <in_commod>lwr_unf_cool</in_commod>
@@ -225,7 +224,7 @@
           <val>rep_lwr_tru</val>
         </streams>
         <process_time>0</process_time>
-        <max_inv_size>2000000</max_inv_size>
+        <capacity>166667</capacity>
         <!-- need commodity production section? -->
       </SeparationMatrix>
     </config>
@@ -256,7 +255,6 @@
           <val>rep_sfr_tru</val>
         </streams>
         <process_time>0</process_time>
-        <max_inv_size>2000000</max_inv_size>
         <!-- need commodity production section? -->
       </SeparationMatrix>
     </config>
