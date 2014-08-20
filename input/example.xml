@@ -50,6 +50,7 @@
 
   <facility>
     <name>Mine</name>
+    <lifetime>1200</lifetime>
     <config>
       <Source>
         <out_commod>nat_u</out_commod>
@@ -61,18 +62,21 @@
 
   <facility>
     <name>Enrichment</name>
+    <lifetime>1200</lifetime>
     <config>
-      <EnrichmentFacility>
+      <CommodConverter>
         <in_commod>nat_u</in_commod>
         <in_recipe>nat_u_recipe</in_recipe>
         <out_commod>leu</out_commod>
-        <tails_assay>0.0025</tails_assay>
-      </EnrichmentFacility>
+        <out_recipe>leu_recipe</out_recipe>
+        <process_time>0</process_time>
+      </CommodConverter>
     </config>
   </facility>
 
   <facility>
     <name>LWRFuelFab</name>
+    <lifetime>1200</lifetime>
     <config>
       <CommodConverter>
         <in_commod>leu</in_commod>
@@ -86,6 +90,7 @@
 
   <facility>
     <name>SFRFuelFab</name>
+    <lifetime>1200</lifetime>
     <config>
       <StreamBlender>
         <in_commods>
@@ -173,6 +178,7 @@
 
   <facility>
     <name>LWRWetStorage</name>
+    <lifetime>1200</lifetime>
     <config>
       <CommodConverter>
         <in_commod>lwr_unf</in_commod>
@@ -187,6 +193,7 @@
 
   <facility>
     <name>SFRWetStorage</name>
+    <lifetime>1200</lifetime>
     <config>
       <CommodConverter>
         <in_commod>sfr_unf</in_commod>
@@ -201,6 +208,7 @@
 
   <facility>
     <name>LWRSeparations</name> <!-- need enter time 2025 -->
+    <lifetime>1200</lifetime>
     <config>
       <SeparationMatrix>
         <in_commod>lwr_unf_cool</in_commod>
@@ -232,6 +240,7 @@
 
   <facility>
     <name>SFRSeparations</name>
+    <lifetime>1200</lifetime>
     <config>
       <SeparationMatrix>
         <in_commod>sfr_unf_cool</in_commod>
@@ -262,6 +271,7 @@
 
   <facility>
     <name>Repository</name>
+    <lifetime>1200</lifetime>
     <config>
       <Sink>
         <in_commods>
