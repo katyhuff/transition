@@ -115,12 +115,17 @@
           <val>92235</val>
           <val>92235</val>
           <val>92235</val>
+          <val>94239</val>
+          <val>95241</val>
         </isos>
         <sources>
           <val>rep_sfr_tru</val>
           <val>rep_lwr_tru</val>
           <val>rep_sfr_u</val>
+          <val>nat_u</val>
           <val>dep_u</val>
+          <val>rep_lwr_tru</val>
+          <val>rep_lwr_tru</val>
         </sources>
         <process_time>12</process_time>
         <!-- need commodity production? -->
@@ -233,6 +238,7 @@
         </streams>
         <process_time>0</process_time>
         <capacity>166667</capacity>
+        <cost>0</cost>
         <!-- need commodity production section? -->
       </SeparationMatrix>
     </config>
@@ -429,10 +435,6 @@
     <nuclide>
       <id>95241</id>
       <comp>0.48</comp>
-    </nuclide>
-    <nuclide>
-      <id>43099</id>
-      <comp>0</comp>
     </nuclide>
   </recipe>
   <recipe>
