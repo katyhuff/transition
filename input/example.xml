@@ -97,8 +97,8 @@
           <val>rep_sfr_tru</val>
           <val>rep_lwr_tru</val>
           <val>rep_sfr_u</val>
-          <val>nat_u</val>
           <val>dep_u</val>
+          <val>nat_u</val>
         </in_commods>
         <out_commod>fresh_sfr_fuel</out_commod>
         <out_recipe>fresh_sfr_fuel_recipe</out_recipe>
@@ -106,8 +106,8 @@
           <val>rep_sfr_tru_recipe</val>
           <val>rep_lwr_tru_recipe</val>
           <val>rep_sfr_u_recipe</val>
-          <val>nat_u_recipe</val>
           <val>dep_u_recipe</val>
+          <val>nat_u_recipe</val>
         </in_recipes>
         <isos>
           <val>94240</val>
@@ -122,8 +122,8 @@
           <val>rep_sfr_tru</val>
           <val>rep_lwr_tru</val>
           <val>rep_sfr_u</val>
-          <val>nat_u</val>
           <val>dep_u</val>
+          <val>nat_u</val>
           <val>rep_lwr_tru</val>
           <val>rep_lwr_tru</val>
         </sources>
