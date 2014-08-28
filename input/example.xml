@@ -159,7 +159,7 @@
 
   <facility>
     <name>SFR</name>
-    <lifetime>600</lifetime>
+    <lifetime>720</lifetime>
     <config>
       <BatchReactor>
         <fuel>
