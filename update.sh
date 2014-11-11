@@ -6,7 +6,7 @@
 # All changes will be stashed
 
 # This is where I want my script to start.
-TOP_DIR=~/cyclus/
+TOP_DIR=~/repos/cyclus/
 REPOS="cyclus
        cycamore
        streamblender
