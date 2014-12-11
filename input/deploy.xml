@@ -158,7 +158,7 @@
 
   <facility>
     <name>SFR</name>
-    <lifetime>720</lifetime>
+    <lifetime>1200</lifetime>
     <config>
       <BatchReactor>
         <fuel>
@@ -341,237 +341,237 @@
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2026</date>
+            <date>132</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>12</number>
-            <date>2027</date>
+            <date>144</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2028</date>
+            <date>156</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2029</date>
+            <date>168</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2030</date>
+            <date>180</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2031</date>
+            <date>192</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2032</date>
+            <date>204</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2033</date>
+            <date>216</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2034</date>
+            <date>228</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2035</date>
+            <date>240</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2036</date>
+            <date>252</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2037</date>
+            <date>264</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2038</date>
+            <date>276</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2039</date>
+            <date>288</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2040</date>
+            <date>300</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2041</date>
+            <date>312</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2042</date>
+            <date>324</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2043</date>
+            <date>336</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2044</date>
+            <date>348</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2045</date>
+            <date>360</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2046</date>
+            <date>372</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2047</date>
+            <date>384</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2048</date>
+            <date>396</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2049</date>
+            <date>408</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2050</date>
+            <date>420</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2051</date>
+            <date>432</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2052</date>
+            <date>444</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2053</date>
+            <date>456</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2054</date>
+            <date>468</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>9</number>
-            <date>2055</date>
+            <date>480</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>0</number>
-            <date>2056</date>
+            <date>492</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2057</date>
+            <date>504</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>6</number>
-            <date>2058</date>
+            <date>516</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2060</date>
+            <date>540</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2061</date>
+            <date>552</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2062</date>
+            <date>564</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2064</date>
+            <date>588</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2065</date>
+            <date>600</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2067</date>
+            <date>624</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2069</date>
+            <date>648</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2071</date>
+            <date>672</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2073</date>
+            <date>696</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2076</date>
+            <date>732</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2088</date>
+            <date>876</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2089</date>
+            <date>888</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2093</date>
+            <date>936</date>
           </buildorder>
           <buildorder>
             <prototype>SFR</prototype>
             <number>3</number>
-            <date>2096</date>
+            <date>972</date>
           </buildorder>
         </DeployInst>
       </config>
